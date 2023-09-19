@@ -1,6 +1,6 @@
 import { requestUrl } from "obsidian";
 export class ChatGPT {
-	private static baseUrl = 'https://api.openai.com/v1/chat/completions';
+	private static baseUrl = 'https://oa.api2d.net/v1/chat/completions';
 
 	static async callAPI(
 		system_role: string,
